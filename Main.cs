@@ -13,6 +13,12 @@ namespace Modul5_103022330122
         {
             PemrosesData pemroses = new PemrosesData();
             pemroses.DapatkanNilaiTerbesar<float>(12, 24, 56);
+            simpleDataBase<int> simple = new simpleDataBase<int>();
+            simple.addNewData(12);
+            simple.addNewData(13);
+            simple.addNewData(14);
+
+            simple.printAllData();
         }
     }
 
